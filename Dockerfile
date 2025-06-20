@@ -20,4 +20,4 @@ EXPOSE 5004
 CMD ["yarn", "develop"]
 
 
-# FROM kingindnorth03/my-strapi-be:4
+# FROM jargon/proxy:5088/kingindnorth03/my-strapi-be:4

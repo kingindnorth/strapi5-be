@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "edu_bit_stories",
+  "info": {
+    "singularName": "edu-bit-story",
+    "pluralName": "edu-bit-stories",
+    "displayName": "Edu Bit story"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "youtubeUrl": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isStory": {
+      "type": "boolean"
+    }
+  }
+}
