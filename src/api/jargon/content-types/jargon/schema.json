@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jargons",
+  "info": {
+    "singularName": "jargon",
+    "pluralName": "jargons",
+    "displayName": "Jargon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "word": {
+      "type": "text"
+    },
+    "meaning": {
+      "type": "blocks"
+    }
+  }
+}

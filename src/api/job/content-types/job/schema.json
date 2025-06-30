@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "location": {
+      "type": "text"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "applyUrl": {
+      "type": "text"
+    }
+  }
+}
